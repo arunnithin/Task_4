@@ -1,0 +1,51 @@
+.heading{
+    font-size: 90px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 30px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(224, 213, 195);
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .page{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: rgb(249, 236, 221);
+  }
+
+  .box{
+    width: 180px;
+    height: 150px;
+    border:3px solid rgb(255, 115, 0);color: black;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 20%;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  #statusview{
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  #restart{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(255, 115, 0);
+  }
+  #restart:hover{
+    background-color: rgb(118, 57, 8);
+    transition: 0.2s;
+  }
